@@ -10,6 +10,7 @@ import Category from './Pages/Category';
 import CategoryDetails from './Pages/CategoryDetails';
 import Footer from './Common/Footer';
 import Home from './Pages/Home';
+import About from './Pages/About';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/blogdetails/:id' element={<BlogDetaills />} />
         <Route path='/category' element={<Category />} />
         <Route path='/catgdetails/:id' element={<CategoryDetails />} />
+        <Route path='/about' element={<About />} />
 
 
       </Routes>
